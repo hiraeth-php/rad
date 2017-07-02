@@ -60,7 +60,7 @@ abstract class AbstractResponder
 			$action($this->request, $this);
 		}
 
-		$output = $this->render($router->getResponse());
+		$output = $this->render($this->request);
 
 		if (!$output instanceof Response) {
 			if (!$output instanceof Stream) {
