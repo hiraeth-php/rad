@@ -1,6 +1,6 @@
 <?php
 
-namespace Hiraeth\ADR;
+namespace Hiraeth\RAD;
 
 use Psr\Http\Message\ServerRequestInterface as Request;
 

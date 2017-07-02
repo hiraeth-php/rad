@@ -1,6 +1,6 @@
 <?php
 
-namespace Hiraeth\ADR;
+namespace Hiraeth\RAD;
 
 use Journey\Router as Router;
 use Twig\Environment as Twig;
